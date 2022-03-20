@@ -155,3 +155,27 @@ dt {
 dd {
   display: inline-block;
 }
+
+footer {
+  background-color: #251e19;
+  height: 75px;
+  color: white;
+}
+footer nav {
+  width: 100%;
+}
+footer img {
+  height: 30px;
+}
+footer nav ul {
+  display: flex;
+  justify-content: center;
+}
+footer a{ 
+  color: white;
+} 
+footer p {
+  display: block;
+  text-align: center;
+  font-size: 10px;
+}
