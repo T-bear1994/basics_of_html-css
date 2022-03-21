@@ -69,6 +69,7 @@ div,li {
 .float {
   float: left;
   width: 60%;
+  padding-right: 20px;
 }
 .float-r{
   width: 35%;
@@ -116,6 +117,11 @@ div,li {
 }
 .menu-item {
   background-color: white;
+  width: 45%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 .menu-item h2{
   font-size: 20px;
@@ -126,6 +132,8 @@ div,li {
 }
 .recommended-menu li img {
   width: 55%;
+  height: 300px;
+  object-fit: cover;
 }
 .coffee-menu {
   display: flex;
