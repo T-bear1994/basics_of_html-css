@@ -94,6 +94,10 @@ div,li {
   width: 20%;
   border-radius: 50%;
 }
+.coffee-menu-content {
+  width: 80%;
+  padding: 10px;
+}
 .menu {
   background-image: url(../images/sample_menu_bg.jpg);
   background-attachment: fixed;
@@ -125,12 +129,18 @@ div,li {
 }
 .coffee-menu {
   display: flex;
+  justify-content: space-between;
   flex-wrap: wrap;
+  padding-bottom: 50px;
+  background-color: #fff;
+  padding: 20px;
 }
 .coffee-menu li {
   width: 49%;
-  background-color: white;
   display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  padding: 10px;
 }
 .coffee-menu li h2 {
   font-size: 20px;
